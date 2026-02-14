@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "SHIT TIMER",
+    "slug": "shit-timer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "scheme": "shit-timer",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a1a2e"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1a1a2e"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.shittimer"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "65523d66-870f-4c1d-bd97-d91dc1026edb"
+      }
+    },
+    "owner": "lx4evers-organization"
+  }
+}
